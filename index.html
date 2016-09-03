@@ -1,38 +1,67 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>Otho</title>
-      <link rel="stylesheet" href="./css/main.css" media="screen" title="no title" charset="utf-8">
+<html>
+  <head>
+    <title>Otho</title>
+    <link rel="stylesheet" href="./css/main.css" media="screen" title="no title" charset="utf-8">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
 
-    <body>
-      <!-- <div class="twitter_container"></div> -->
-      <div class="logo_container">
-        <div class="outer_ring">
-          <div class="inner_ring">
-            <img class="logo-img" src="./images/logo.jpg" alt="logo"/>
-            <span class="title"> Otho </span>
-          </div>
+  <body>
+    <div class="logo container">
+      <img class="logo-img" src="./images/logo.jpg" alt="logo"/>
+      <div class="title">Otho</div>
+    </div>
+
+    <div class="container cards">
+      <div class="card about">
+        <div class="title">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+          <span>About</span>
+        </div>
+        <div class="content">
+          <p>My name is Marcelo, but my nick is Otho.</p>
+          <p>I am 23 years old Computer Science Undergraduate with a passion for games.</p>
+          <p>I love creating things, although my main habilities are related to programming I also enjoy writing and drawing, but you won't see this in the skills section (for good reasons)</p>
         </div>
       </div>
-      <div class="container">
-        <div class="links_container">
-          <div class="link github">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </div>
-          <div class="link email">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-          </div>
-          <div class="link twitter">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </div>
+      <div class="card work">
+        <div class="title">
+          <i class="fa fa-suitcase" aria-hidden="true"></i>
+          <span>Work</span>
         </div>
+        <div class="content">
+          <p>I have developed some serious games in html5, a minecraft mod and some other apps.</p>
+          <p>Most of my work is on github under the account <a href="https://github.com/0tho">0tho</a></p>
+        </div>
+      </div>
+      <div class="card skills">
+        <div class="title">
+          <i class="fa fa-bolt" aria-hidden="true"></i>
+          <span>Skills</span>
+        </div>
+        <div class="content">
+          <ul>
+            <li> Javascript </li>
+            <li> GIT </li>
+            <li> html/css </li>
+            <li> grunt/gulp </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card contact">
+        <div class="title">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <span>Contact</span>
+        </div>
+        <div class="content">
+          If you wanna talk just send me an e-mail at otho@otho.me
+        </div>
+      </div>
     </div>
 
     <!--  Import js files -->
     <script src="./js/resize.js" charset="utf-8"></script>
-    </body>
-  </html>
+  </body>
+</html>

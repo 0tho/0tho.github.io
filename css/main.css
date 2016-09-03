@@ -1,4 +1,4 @@
-@import url(./font-awesome.css);
+@import url(./fonts.css);
 
 html, body {
   width: 100%;
@@ -8,131 +8,97 @@ html, body {
 html {
   font-size: 16px;
   font-size: 1vmin;
+
+  font-family: monospace;
 }
 
 body {
   margin: 0;
-  background-repeat: repeat;
-  background:
-
-
-              #FFFFFF;
-  background-size:
-
-
-                   100% 100%;
+  font-size: 3rem;
 }
 
-.twitter_container {
-  width: 25%;
-  height: 100%;
-  border-left: 0.5rem solid black;
-  border-right: 0.5rem solid black;
-  position: relative;
-  box-sizing: border-box;
-  left: 10%;
+p {
+  margin: 0;
 }
 
-.outer_ring {
-  width: 60%;
-  height: 60%;
-  background-color: rgb(200, 50, 50);
-  position: relative;
-  top: 20%;
-  left: 20%;
-
-  border-radius: 50%;
-}
-
-.inner_ring {
-  width: 80%;
-  height: 80%;
-  background-color: white;
-  position: relative;
-  top: 10%;
-  left: 10%;
-  border-radius: 50%;
-}
-
-.title {
-  font-family: monospace;
-  position: relative;
-  top: 25%;
-  left: 5%;
-  font-size: 4rem;
-}
-
-.logo-img {
-  position: relative;
-  width: 40%;
-  height: 40%;
-  top: 30%;
-  left: 14%;
-  border-radius: 50%;
-}
-
-.logo_container {
-  width: 100vw;
-  height: 100vw; /* 4/3 */
-  max-height: 100vh;
-  max-width: 100vh; /* 4/3 = 1.333 */
-
-  margin: auto;
-  position: absolute;
-
-  top:0;bottom:0; /* vertical center */
-  left:0;right:0; /* horizontal center */
-}
-
-.links_container {
-  left: 15%;
-  width: 70%;
-  height: 10%;
-  position: absolute;
-  bottom: 2%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.link {
-  width: 10rem;
-  height: 10rem;
-
-  /*background-color: red;*/
-  float: left;
-  border-radius: 50%;
-  border: 1px solid black;
-  box-sizing: border-box;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.link i {
-  font-size: 5rem;
-  position: relative;
-  top: 20%;
+i {
+  color: white;
 }
 
 .container {
   width: 100%;
-  max-width: 768px;
-  margin: 0 auto;
-  height: 100%;
-  position: relative;
+  text-align: center;
 }
 
+.logo.container {
+  padding-top: 10%;
+}
+
+.logo-img {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+
+  /*border: 2px solid black;*/
+  box-sizing: border-box;
+}
+
+.logo .title {
+  font-size: 4rem;
+  font-family: digitall;
+  color: #ef5858;
+  padding-top: 1%;
+}
+
+.cards.container {
+  position: relative;
+  top: 10%;
+}
+
+.card {
+  width: 80%;
+  max-width: 600px;
+  text-align: justify;
+  margin: 0 auto;
+}
+.card:not(:first-child) {
+  margin-top: 5rem;
+}
+
+.card .title {
+  text-align: left;
+  background-color: #ef5858;;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  border-radius: 10px;
+}
+
+.card .content {
+  padding: 0 2rem;
+  padding-top: 1rem;
+}
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
-
+@media (min-width: 768px) {
+  .cards.container {
+    position: relative;
+    top: 1%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
-
+@media (min-width: 992px) {
+  body {
+    font-size: 2rem;
+  }
+  .card:not(:first-child) {
+    margin-top: 5rem;
+  }
+  .logo.container {
+    padding-top: 2%;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
+@media (min-width: 1200px) {
 }

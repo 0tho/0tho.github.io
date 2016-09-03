@@ -1,0 +1,8 @@
+@import url(./font-awesome.css);
+
+@font-face {
+  font-family: 'digitall';
+  src: url('../fonts/01digitall/01_Digitall.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
