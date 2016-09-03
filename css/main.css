@@ -1,0 +1,138 @@
+@import url(./font-awesome.css);
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  font-size: 1vmin;
+}
+
+body {
+  margin: 0;
+  background-repeat: repeat;
+  background:
+
+
+              #FFFFFF;
+  background-size:
+
+
+                   100% 100%;
+}
+
+.twitter_container {
+  width: 25%;
+  height: 100%;
+  border-left: 0.5rem solid black;
+  border-right: 0.5rem solid black;
+  position: relative;
+  box-sizing: border-box;
+  left: 10%;
+}
+
+.outer_ring {
+  width: 60%;
+  height: 60%;
+  background-color: rgb(200, 50, 50);
+  position: relative;
+  top: 20%;
+  left: 20%;
+
+  border-radius: 50%;
+}
+
+.inner_ring {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  border-radius: 50%;
+}
+
+.title {
+  font-family: monospace;
+  position: relative;
+  top: 25%;
+  left: 5%;
+  font-size: 4rem;
+}
+
+.logo-img {
+  position: relative;
+  width: 40%;
+  height: 40%;
+  top: 30%;
+  left: 14%;
+  border-radius: 50%;
+}
+
+.logo_container {
+  width: 100vw;
+  height: 100vw; /* 4/3 */
+  max-height: 100vh;
+  max-width: 100vh; /* 4/3 = 1.333 */
+
+  margin: auto;
+  position: absolute;
+
+  top:0;bottom:0; /* vertical center */
+  left:0;right:0; /* horizontal center */
+}
+
+.links_container {
+  left: 15%;
+  width: 70%;
+  height: 10%;
+  position: absolute;
+  bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  width: 10rem;
+  height: 10rem;
+
+  /*background-color: red;*/
+  float: left;
+  border-radius: 50%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.link i {
+  font-size: 5rem;
+  position: relative;
+  top: 20%;
+}
+
+.container {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+}
